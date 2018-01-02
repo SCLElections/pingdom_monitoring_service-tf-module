@@ -5,7 +5,7 @@ Terraform module for creating Pingdom checks
 
 ```hcl-terraform
 module "monitoring" {
-  source     = "git@github.com:SCLElections/terraform-modules//pingdom_monitoring_service"
+  source     = "git@github.com:SCLElections/pingdom_monitoring_service-tf-module"
   domain     = "ca-commercial.com"
   contactids = "11281991"
 }
