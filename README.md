@@ -17,3 +17,4 @@ module "monitoring" {
 * **contactids** - **[string]** - (required) - Which teams/people to contact in case the check fails.
 * **https** - **[boolean]** - (default: true) - Switch between http or https checks.
 * **integrationids** - **[string]** - (default: [46564]) - Pingdom integrations ids.
+* **production** - **[boolean]** - (default: true) - Used to for count on resources

@@ -1,4 +1,5 @@
 resource "pingdom_check" "root_domain" {
+  count                    = "${var.production}"
   name                     = "${var.domain}"
   host                     = "${var.domain}"
   type                     = "http"

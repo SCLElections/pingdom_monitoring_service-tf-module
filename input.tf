@@ -16,3 +16,7 @@ variable "integrationids" {
   description = "Enable slack notifications."
   default     = [46564]
 }
+
+variable "production" {
+  default = true
+}
